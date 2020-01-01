@@ -70,7 +70,7 @@ def showDiffs(frames):
 			cv2.imshow('Results', frame)
 	else:
 		print('No difference  frames found in this video')
-		print('Ignore this line')
+		
 	
 	print('Done!')
 	return None
