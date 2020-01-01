@@ -1,4 +1,5 @@
 import logging
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -122,7 +123,7 @@ def showDiffs(frames):
 	else:
 		print('No difference  frames found in this video')
 	
-	print('!!Done')
+	print('Done!')
 	return None
 
 
